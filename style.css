@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+html,body{
+    place-items: center;
+    overflow: hidden;
+    
+}
+.form-container{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(0,0,0,0.1);
+    padding:5px;
+    overflow: hidden;
+}
+
+
+
+.title-text{
+    display:flex;
+    width: 200%;
+ }
+ .title-text .title {
+   width:50%;
+   font-size: 25px;
+   font-weight: 400;
+   text-align: center;
+  
+ }
+.input-group{
+
+    width: 100%;
+    top:20px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+   
+}
+
+
+.input-field{
+    width: 100%;
+    padding:10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 10px;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none ;
+    background: transparent;
+
+}
+.select_year
+{   width: 100%;
+    
+
+
+}
+.check-box{
+    width: 100px;
+    margin-top: 2px;
+}
+
+.select{
+    margin-top: 30px;
+}
+.select{
+    color:#ff105f;
+    font-size: 15px;
+}
+.add{
+    margin-top: 30px;
+    
+}
+.add{
+    color:#067c4f;
+    font-size: 15px;
+}
+.submit-btn{
+    top:10px;
+    width: 85%;
+    font-size: 15px;
+    padding: 15px 30px;
+    cursor:pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+    
+}
+#custom-button {
+    top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #custom-button:hover {
+    background-color: #00b28f;
+  }
+ #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: rgb(31, 30, 30);
+  }
+  
+
+#login{
+    left:50px;
+    
+}
